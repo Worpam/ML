@@ -35,6 +35,9 @@ button{
     margin-bottom: 10px;
     background-color: orange;
 }
+span{
+    color: #333333;
+}
 .main-container{
     width: 90%;
     height: auto;
