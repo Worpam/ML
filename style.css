@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+h1{
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #333333;
+    font-weight: 500;
+}
+.writing{
+    width: 90%;
+    height: 30vh;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+h2{
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #333333;
+    margin-top: 20px;
+}
+
+button{
+    width: 80px;
+    height: 35px;
+    border-radius: 150px;
+    border-style: none;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    background-color: orange;
+}
+.main-container{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:900px){
+    .main-container{
+       margin: auto;
+    }
+}
+ul{
+    list-style: none;
+}
